@@ -1,27 +1,27 @@
 # Google Job Monitor
 
-## 功能
+## Features
 
-- 监控 Google 广州职位
-- 微信通知（Server酱）
-- SQLite 去重
-- Playwright 抓取
+- Monitor Google Guangzhou job postings
+- WeChat notifications via ServerChan
+- SQLite deduplication
+- Playwright scraping
 
-## 运行
+## Run
 
-### 安装 Playwright 浏览器
+### Install Playwright browsers
 
 ```bash
 mvn playwright:install
 ```
 
-### 打包
+### Build
 
 ```bash
 mvn clean package
 ```
 
-### 运行
+### Run
 
 ```bash
 java -jar target/google-job-monitor-1.0.0.jar
