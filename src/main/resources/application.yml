@@ -1,0 +1,18 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:sqlite:jobs.db
+    driver-class-name: org.sqlite.JDBC
+
+  jpa:
+    database-platform: org.hibernate.community.dialect.SQLiteDialect
+    hibernate:
+      ddl-auto: update
+
+monitor:
+  url: https://www.google.com/about/careers/applications/locations/guangzhou/
+
+server-chan:
+  send-key: YOUR_SEND_KEY

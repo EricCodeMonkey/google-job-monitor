@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  google-job-monitor:
+    build: .
+    container_name: google-job-monitor
+    restart: always
+    volumes:
+      - ./data:/app
