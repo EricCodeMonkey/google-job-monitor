@@ -1,6 +1,7 @@
-package com.example.googlejobs.scheduler;
+package com.ericcodemonkey.googlejobs.scheduler;
 
-import com.example.googlejobs.service.GoogleJobService;
+
+import com.ericcodemonkey.googlejobs.service.GoogleJobService;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 

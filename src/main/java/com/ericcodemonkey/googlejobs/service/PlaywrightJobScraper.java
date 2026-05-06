@@ -1,4 +1,4 @@
-package com.example.googlejobs.service;
+package com.ericcodemonkey.googlejobs.service;
 
 import com.microsoft.playwright.*;
 import org.springframework.beans.factory.annotation.Value;

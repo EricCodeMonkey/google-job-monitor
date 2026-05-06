@@ -1,4 +1,4 @@
-package com.example.googlejobs.config;
+package com.ericcodemonkey.googlejobs.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.annotation.EnableScheduling;

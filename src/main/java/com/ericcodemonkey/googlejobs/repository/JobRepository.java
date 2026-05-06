@@ -1,6 +1,6 @@
-package com.example.googlejobs.repository;
+package com.ericcodemonkey.googlejobs.repository;
 
-import com.example.googlejobs.model.JobEntity;
+import com.ericcodemonkey.googlejobs.model.JobEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface JobRepository extends JpaRepository<JobEntity, String> {

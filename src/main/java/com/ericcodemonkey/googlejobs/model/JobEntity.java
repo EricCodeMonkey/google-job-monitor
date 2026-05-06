@@ -1,4 +1,4 @@
-package com.example.googlejobs.model;
+package com.ericcodemonkey.googlejobs.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

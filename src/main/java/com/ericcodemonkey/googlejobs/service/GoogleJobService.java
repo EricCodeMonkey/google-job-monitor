@@ -1,7 +1,7 @@
-package com.example.googlejobs.service;
+package com.ericcodemonkey.googlejobs.service;
 
-import com.example.googlejobs.model.JobEntity;
-import com.example.googlejobs.repository.JobRepository;
+import com.ericcodemonkey.googlejobs.model.JobEntity;
+import com.ericcodemonkey.googlejobs.repository.JobRepository;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
